@@ -1,0 +1,20 @@
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+2019-08-06 14:16:47,199 main WARN Disabling terminal, you're running in an unsupported environment.
+[14:16:47.416] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, K_Zucchetto, --version, forge-28.0.40, --gameDir, /Users/katz/Twitch/Minecraft/Instances/The Adventures of Halk 1.14.4, --assetsDir, /Users/katz/Twitch/Minecraft/Install/assets, --assetIndex, 1.14, --uuid, 4fc61e749a1c46a88a015ff51e60f095, --accessToken, ❄❄❄❄❄❄❄❄, --userType, legacy, --versionType, release, --width, 1024, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 28.0.40, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20190719.225934]
+[14:16:47.424] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 3.1.1+59+e32e753 starting: java version 1.8.0_221 by Oracle Corporation
+[14:16:48.115] [main/INFO] [ne.mi.fm.lo.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[14:16:48.319] [main/FATAL] [ne.mi.fm.lo.FMLCommonLaunchHandler/CORE]: Failed to find Minecraft resource version 1.14.4-20190719.225934 at /Users/katz/Twitch/Minecraft/Install/libraries/net/minecraftforge/forge/1.14.4-28.0.40/forge-1.14.4-28.0.40-client.jar
+Exception in thread "main" [14:16:48.322] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.RuntimeException: Missing minecraft resource!
+[14:16:48.324] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLCommonLaunchHandler.lambda$validatePaths$4(FMLCommonLaunchHandler.java:119)
+[14:16:48.326] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+[14:16:48.327] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+[14:16:48.328] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLCommonLaunchHandler.validatePaths(FMLCommonLaunchHandler.java:116)
+[14:16:48.328] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLLoader.setupLaunchHandler(FMLLoader.java:189)
+[14:16:48.329] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLServiceProvider.initialize(FMLServiceProvider.java:82)
+[14:16:48.337] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServiceDecorator.onInitialize(TransformationServiceDecorator.java:64)
+[14:16:48.340] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$initialiseTransformationServices$7(TransformationServicesHandler.java:106)
+[14:16:48.341] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.util.HashMap$Values.forEach(HashMap.java:981)
+[14:16:48.341] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.initialiseTransformationServices(TransformationServicesHandler.java:106)
+[14:16:48.343] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:59)
+[14:16:48.348] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:75)
+[14:16:48.354] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
